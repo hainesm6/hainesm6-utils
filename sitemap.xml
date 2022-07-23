@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://hainesm6.github.io/hainesm6-utils/</loc>
+         <lastmod>2022-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hainesm6.github.io/hainesm6-utils/api/</loc>
+         <lastmod>2022-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hainesm6.github.io/hainesm6-utils/contributing/</loc>
+         <lastmod>2022-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hainesm6.github.io/hainesm6-utils/installation/</loc>
+         <lastmod>2022-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hainesm6.github.io/hainesm6-utils/usage/</loc>
+         <lastmod>2022-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
