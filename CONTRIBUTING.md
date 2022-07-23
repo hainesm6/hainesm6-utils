@@ -59,7 +59,7 @@ Ready to contribute? Here's how to set up `hainesm6-utils` for local development
 4. Install dependencies and start your virtualenv:
 
     ```shell
-    $ poetry install -E test -E doc -E dev
+    $ poetry install -v
     ```
 
 5. Create a branch for local development:
