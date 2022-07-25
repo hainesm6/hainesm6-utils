@@ -2,7 +2,7 @@
 [tool.poetry]
 name = "hainesm6-utils"
 # version may differ from pypi given GitHub workflows. See releases at homepage.
-version = "0.1.0"
+version = "0.2.0"
 homepage = "https://github.com/hainesm6/hainesm6-utils"
 description = "Collection of utility code needed for various projects."
 authors = ["Matthew Haines <hainesm6@gmail.com>"]
@@ -22,7 +22,8 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<4.0"
+python = ">=3.8,<3.11"
+pingouin = "^0.5.2"
 
 [tool.poetry.dev-dependencies]
 black = "*"
