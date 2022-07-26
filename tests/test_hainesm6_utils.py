@@ -3,6 +3,8 @@
 
 import pytest
 
+import hainesm6_utils as hu
+
 
 @pytest.fixture
 def response():
@@ -14,8 +16,8 @@ def response():
     # return requests.get('https://github.com/audreyr/cookiecutter-pypackage')
 
 
-def test_content(response):
-    """Sample pytest test function with the pytest fixture as an argument."""
-    # from bs4 import BeautifulSoup
-    # assert 'GitHub' in BeautifulSoup(response.content).title.string
-    del response
+def test_experimental_power():
+    lower_power = hu.experimental_power(n_treatments=5, practical_diff=0.2 * 16.8389, variance=1.1378, replicates=2)
+    upper_power = hu.experimental_power(n_treatments=5, practical_diff=0.2 * 16.8389, variance=1.1378, replicates=6)
+    assert round(lower_power, 2) == 0.35
+    assert round(upper_power, 2) == 0.99
